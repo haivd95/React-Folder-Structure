@@ -2,9 +2,8 @@ import { Carousel } from "antd"
 import React from "react"
 import MainLayout from "src/layouts/MainLayout"
 export default function Home() {
-  const onChange = (currentSlide: number) => {
-    console.log(currentSlide)
-  }
+  const onChange = (currentSlide: number) => {}
+
   const contentStyle: React.CSSProperties = {
     height: "160px",
     color: "#fff",
