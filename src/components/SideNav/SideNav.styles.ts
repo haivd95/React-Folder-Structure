@@ -67,10 +67,12 @@ export const Nav = styled.nav`
   }
 `
 
-export const Logo = styled.a`
-  display: block;
-  color: #fff;
-  font-weight: 900;
-  padding: 10px 30px;
-  transition: 0.3s;
+export const Logo = styled.div`
+  background: #a3a3a3;
+  padding: 6px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 38px;
+  color: white;
+}
 `
