@@ -24,3 +24,9 @@ yarn add @types/react@latest @types/react-dom@latest --dev
 # 👇️ if you also want to update react and react-dom
 
 yarn add react@latest react-dom@latest
+
+# -------------------- Live web build --------------------
+
+npx serve -s build
+
+# -------------------- END Live web build --------------------
